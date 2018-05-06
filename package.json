@@ -1,0 +1,42 @@
+{
+  "name": "Raarsome",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "native-base": "^2.3.9",
+    "react": "16.2.0",
+    "react-native": "0.53.3",
+    "react-native-action-button": "^2.8.4",
+    "react-native-camera": "^1.0.1",
+    "react-native-highcharts": "^1.0.2",
+    "react-native-linear-gradient": "^2.4.0",
+    "react-native-modalbox": "^1.4.2",
+    "react-native-orientation": "^3.1.3",
+    "react-native-percentage-circle": "^1.0.6",
+    "react-native-pulse": "^1.0.6",
+    "react-native-sound": "https://github.com/zmxv/react-native-sound#fd89265133963b6914d292bdc9c7f8478440f9ba",
+    "react-native-svg": "^6.2.2",
+    "react-native-svg-charts": "^4.0.1",
+    "react-native-vector-icons": "^4.5.0",
+    "react-native-video": "^2.0.0",
+    "react-navigation": "^1.1.2",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "toggle-switch-react-native": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.2",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
